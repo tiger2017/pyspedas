@@ -2,6 +2,7 @@
 ### EICS and SECS data
 
 pySPEDAS.secs module is to load and read EICS and SECS data. The vector field and contour maps are also implemented.
+You can customize your own path of the data downloaded and the output plots directories in your .bash_profile after reading the config.py file in the pyspedas.secs module.
 ```python
 import pyspedas
 from pyspedas.secs.makeplots import make_plots
